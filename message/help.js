@@ -28,12 +28,12 @@ exports.allmenu = (sender, prefix, pushname, isOwner, isPremium, balance, limit,
     Prefix : ( ${prefix} )
     Tanggal Server : ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}
     Waktu Server : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}
-
-	Status : ${isOwner ? 'Owner' : isPremium ? 'Premium' : 'Free'}
-	Limit Harian : ${isOwner ? '-' : isPremium ? 'Unlimited' : getLimit(sender, limitCount, limit)}
-	Limit Game : ${isOwner ? '-' : cekGLimit(sender, gcount, glimit)}
-	Balance : $${toCommas(getBalance(sender, balance))}
-  Note : Spam bot = Baned permanen
+    
+     Status : ${isOwner ? 'Owner' : isPremium ? 'Premium' : 'Free'}
+     Limit Harian : ${isOwner ? '-' : isPremium ? 'Unlimited' : getLimit(sender, limitCount, limit)}
+     Limit Game : ${isOwner ? '-' : cekGLimit(sender, gcount, glimit)}
+     Balance : $${toCommas(getBalance(sender, balance))}
+     Note : Spam bot = Baned
   
     *Group Menu*
   • ${prefix}linkgrup
