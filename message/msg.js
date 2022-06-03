@@ -269,7 +269,7 @@ module.exports = async(conn, msg, m, setting, store) => {
 		//{ callButton: { displayText: `Call Owner!`, phoneNumber: `https://wa.me/6283811034750?text=Hai+kak` } },
 		const buttonsDefault = [
 			{ urlButton: { displayText: `Nomer Owner`, url : `https://wa.me/6283811034750?text=Hai+kak` } },
-			{ quickReplyButton: { displayText: `S E W A - B O T`, id: `${prefix}owner` } },
+			{ quickReplyButton: { displayText: `S E W A - B O T`, id: `${prefix}sewa` } },
 		]
 		const button5 = [
 			{ callButton: { displayText: `Number Owner`, phoneNumber: `https://wa.me/6283811034750?text=Hai+kak` } },
